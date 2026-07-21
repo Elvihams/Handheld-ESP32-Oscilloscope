@@ -20,11 +20,7 @@ The system comprises two main subsystems:
 1.  **Analog Frontend (AFE):** Signal conditioning, 1X/10X attenuation, AC/DC coupling, and DC biasing using LM358.
 2.  **Digital Block:** ESP32 MCU performing 12-bit ADC sampling and data processing.
 
-<p align="center">
-  <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="800">
-</p>
 
-<img width="445" height="607" alt="image" src="https://github.com/user-attachments/assets/24a6db16-a0c5-482e-bc11-da83e25a20e2" />
 <img width="382" height="672" alt="image" src="https://github.com/user-attachments/assets/c77f497c-f520-44b9-ab54-77bb84510ff7" />
 
 
