@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="387" height="623" alt="image" src="https://github.com/user-attachments/assets/17bf38c7-9927-437c-acfe-6d05c52f481b" />
+  <img src="image/diagram/Hardware_Block_cropped.pdf" alt="Hardware System Block Diagram" width="800">
 </p>
 
 ## 🚀 Key Features
@@ -20,10 +20,9 @@ The system comprises two main subsystems:
 1.  **Analog Frontend (AFE):** Signal conditioning, 1X/10X attenuation, AC/DC coupling, and DC biasing using LM358.
 2.  **Digital Block:** ESP32 MCU performing 12-bit ADC sampling and data processing.
 
-
-<img width="382" height="672" alt="image" src="https://github.com/user-attachments/assets/c77f497c-f520-44b9-ab54-77bb84510ff7" />
-
-
+<p align="center">
+  <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="800">
+</p>
 
 ## 💻 Tech Stack
 *   **Microcontroller:** ESP32-WROOM-32
