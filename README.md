@@ -4,9 +4,21 @@
   This project presents the design and fabrication of a portable, low-cost handheld oscilloscope based on the <strong>ESP32</strong> microcontroller. Designed for educational and practical engineering purposes, this device provides real-time waveform visualization and signal parameter analysis.
 </p>
 
+---
+
+## 🏗 System Architecture & Workflow
+
+### 1. Hardware System Block Diagram
 <p align="center">
-  <img src="image/diagram/Hardware_Block_cropped.pdf" alt="Hardware System Block Diagram" width="800">
+  <img src="image/diagram/Hardware_Block_cropped.pdf" alt="Hardware System Block Diagram" width="850">
 </p>
+
+### 2. Firmware Execution Flowchart
+<p align="center">
+  <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="850">
+</p>
+
+---
 
 ## 🚀 Key Features
 *   **Dual-Core Processing:** Uses ESP32 dual-core architecture to separate high-frequency signal sampling (Core 1) from UI rendering and communication tasks (Core 0).
@@ -14,15 +26,6 @@
 *   **Analog Frontend:** Integrates LM358 Op-Amp for DC biasing and signal conditioning, allowing measurement of bipolar signals.
 *   **Cost-Effective:** Low component cost (approx. $20), making it an ideal tool for students.
 *   **Auto-Zero Calibration:** Software-based calibration to eliminate systematic DC offsets.
-
-## 🛠 Hardware Architecture
-The system comprises two main subsystems:
-1.  **Analog Frontend (AFE):** Signal conditioning, 1X/10X attenuation, AC/DC coupling, and DC biasing using LM358.
-2.  **Digital Block:** ESP32 MCU performing 12-bit ADC sampling and data processing.
-
-<p align="center">
-  <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="800">
-</p>
 
 ## 💻 Tech Stack
 *   **Microcontroller:** ESP32-WROOM-32
