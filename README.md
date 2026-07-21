@@ -1,6 +1,12 @@
-# Handheld Oscilloscope using ESP32
+<h1 align="center">Handheld Oscilloscope using ESP32</h1>
 
-This project presents the design and fabrication of a portable, low-cost handheld oscilloscope based on the **ESP32** microcontroller. Designed for educational and practical engineering purposes, this device provides real-time waveform visualization and signal parameter analysis.
+<p align="center">
+  This project presents the design and fabrication of a portable, low-cost handheld oscilloscope based on the <strong>ESP32</strong> microcontroller. Designed for educational and practical engineering purposes, this device provides real-time waveform visualization and signal parameter analysis.
+</p>
+
+<p align="center">
+  <img src="image/diagram/Hardware_Block_cropped.pdf" alt="Hardware System Block Diagram" width="800">
+</p>
 
 ## 🚀 Key Features
 *   **Dual-Core Processing:** Uses ESP32 dual-core architecture to separate high-frequency signal sampling (Core 1) from UI rendering and communication tasks (Core 0).
@@ -13,6 +19,10 @@ This project presents the design and fabrication of a portable, low-cost handhel
 The system comprises two main subsystems:
 1.  **Analog Frontend (AFE):** Signal conditioning, 1X/10X attenuation, AC/DC coupling, and DC biasing using LM358.
 2.  **Digital Block:** ESP32 MCU performing 12-bit ADC sampling and data processing.
+
+<p align="center">
+  <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="800">
+</p>
 
 ## 💻 Tech Stack
 *   **Microcontroller:** ESP32-WROOM-32
