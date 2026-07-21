@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="image/diagram/Hardware_Block_cropped.pdf" alt="Hardware System Block Diagram" width="800">
+  <img width="387" height="623" alt="image" src="https://github.com/user-attachments/assets/17bf38c7-9927-437c-acfe-6d05c52f481b" />
 </p>
 
 ## 🚀 Key Features
@@ -23,6 +23,11 @@ The system comprises two main subsystems:
 <p align="center">
   <img src="image/diagram/Flowchart_2_cropped (1).pdf" alt="Firmware Flowchart" width="800">
 </p>
+
+<img width="445" height="607" alt="image" src="https://github.com/user-attachments/assets/24a6db16-a0c5-482e-bc11-da83e25a20e2" />
+<img width="382" height="672" alt="image" src="https://github.com/user-attachments/assets/c77f497c-f520-44b9-ab54-77bb84510ff7" />
+
+
 
 ## 💻 Tech Stack
 *   **Microcontroller:** ESP32-WROOM-32
